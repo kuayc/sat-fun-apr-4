@@ -1,17 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-const title = "Chin Kuay in Dallas";
-const date = "April 4, 2020";
-const para = "This is a paragraph"
-
-function App() {
-  return (
-    <div>
-      <h1>Hello {title}</h1>
-      <h2>{date}</h2>
-      <p>{para}</p>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>hello DFW</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
